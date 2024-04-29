@@ -11,7 +11,7 @@ public class ConversorTemperaturaTest {
 
     @BeforeEach
     public void setUp() {
-        System.out.println("Empieza el conversor de temperatura2");
+        System.out.println("Empieza el conversor de temperatura");
         conversor = new ConversorTemperatura();
     }
     @AfterEach
