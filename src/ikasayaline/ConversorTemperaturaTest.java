@@ -33,5 +33,5 @@ public class ConversorTemperaturaTest {
         assertEquals(0,resultado,0.01);// Aceptamos un margen de error de 0.01
     }
 
-    // PUNTO 8 CAMBIO GITHUB
+    // Punto 8 CAMBIO GITHUB
 }
