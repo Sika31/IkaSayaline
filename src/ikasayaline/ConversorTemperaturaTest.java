@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class conversorTemperaturaTest {
+public class ConversorTemperaturaTest {
     private ConversorTemperatura conversor ;
 
     @BeforeEach
@@ -25,6 +25,7 @@ public class conversorTemperaturaTest {
         double resultado=conversor.celsiusAFahrenheit(0);
         assertEquals(32,resultado,0.01); // Aceptamos un margen de error de 0.01
     }
+    // punto 8 cambio en inteliJ
    @Test
     public void fahrenheitACelsius (){
         System.out.println("Farenheit a Celsius");
