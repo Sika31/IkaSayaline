@@ -14,6 +14,7 @@ public class ConversorTemperaturaTest {
         System.out.println("Empieza el conversor de temperatura");
         conversor = new ConversorTemperatura();
     }
+    //Punto 11 modificacion rama GitHub
     @AfterEach
     public void testAfterEach(){
         System.out.println("After each");
