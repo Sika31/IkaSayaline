@@ -8,12 +8,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ConversorTemperaturaTest {
     private ConversorTemperatura conversor ;
-
+// Cambio punto 10 creación de rama
     @BeforeEach
     public void setUp() {
         System.out.println("Empieza el conversor de temperatura");
         conversor = new ConversorTemperatura();
     }
+    //Punto 11 modificacion rama GitHub
     @AfterEach
     public void testAfterEach(){
         System.out.println("After each");
@@ -28,7 +29,7 @@ public class ConversorTemperaturaTest {
     // Punto 8 cambio en inteliJ
    @Test
     public void fahrenheitACelsius (){
-        System.out.println("Farenheit a Celsius ");
+        System.out.println("Farenheit a Celsius");
         double resultado =conversor.fahrenheitACelsius(32);
         assertEquals(0,resultado,0.01);// Aceptamos un margen de error de 0.01
     }
