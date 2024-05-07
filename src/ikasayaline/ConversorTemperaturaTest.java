@@ -20,6 +20,7 @@ public class ConversorTemperaturaTest {
         System.out.println("After each");
     conversor = null;
     }
+    //Punto 12 merge rama master
     @Test
     public void celsiusAFarenheit (){
         System.out.println("Celsius A Farenheit");
