@@ -20,6 +20,7 @@ public class ConversorTemperaturaTest {
         System.out.println("After each");
     conversor = null;
     }
+    //punto 12 rama segundaria
     @Test
     public void celsiusAFarenheit (){
         System.out.println("Celsius A Farenheit");
